@@ -15,14 +15,16 @@ Welcome to **CLI Story Game**, a multi-genre **command-line choose-your-own-adve
 
 ## 📂 Folder Structure
 ```
-cli_game/
-├── game.py           # Main game script
+.
+├── .gitignore         # Ignored files and folders
+├── README.md          # Project overview
+├── comedy.yaml        # Comedy story
 ├── fantasy.yaml       # Fantasy story
+├── game.py            # Main game script
 ├── mystery.yaml       # Mystery story
-├── romance.yaml       # Romance story
-├── comedy.yaml        #comedy story
-├── requirements.txt  # Dependencies
-└── README.md         # Project overview
+├── requirements.txt   # Project dependencies
+└── romance.yaml       # Romance story
+
 ```
 
 ## ▶️ Getting Started
