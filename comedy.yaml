@@ -1,4 +1,5 @@
-title: "Toast of Destiny"
+  title: "Toast of Destiny"
+
   scene_1:
     text: >
       Your toaster just launched flaming bread across the room. The toast reads: “Seek the Ember Jam.”
@@ -13,7 +14,7 @@ title: "Toast of Destiny"
       Toast crumbs lead to a secret fridge in your basement. A glowing jam jar hums with power.
       A muffled voice: “Say the jelly code...”
     choices:
-      "1": "Say "Strawberry Supreme". -> scene_3a"
+      "1": "Say Strawberry Supreme. -> scene_3a"
       "2": "Boop the jar with a spoon. -> scene_3b"
 
   scene_2b:

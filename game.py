@@ -73,8 +73,9 @@ def play_game(story, start="scene_1"):
 
 
 if __name__ == "__main__":
-    show_title()
     
     selected_theme = choose_theme()
+    show_title(selected_theme)
+
     story = load_story(f"{selected_theme.lower()}.yaml")
     play_game(story)
