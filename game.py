@@ -2,6 +2,7 @@ import yaml
 import time
 import sys
 from colorama import Fore, Style, init
+from ascii_titles import fantasy, mystery, romance, comedy
 
 init(autoreset=True)
 
@@ -28,36 +29,20 @@ def slow_print(text, delay=0.02):
         time.sleep(delay)
     print()
 
-def show_title():
-    print(Fore.RED + Style.BRIGHT + r"""  
+def show_title(genre):
+    ascii_map = {
+        "fantasy": (fantasy, Fore.MAGENTA, "🧙‍♂️"),
+        "mystery": (mystery, Fore.BLUE, "🕵️"),
+        "romance": (romance, Fore.RED, "💖"),
+        "comedy": (comedy, Fore.YELLOW, "😂")
+    }
 
-                                                                    
-                    🔥 The Ember Stone 🔥
-          
-  ______     __  __     ____     ______     _____       
- |  ____|   |  \/  |   |  _ \   |  ____|   |  __ \    
- | |__      | \  / |   | |_) |  | |__      | |__) |    
- |  __|     | |\/| |   |  _ <   |  __|     |  _  /   
- | |____    | |  | |   | |_) |  | |____    | | \ \   
- |______|   |_|  |_|   |____/   |______|   |_|  \_\        
-          
+    banner, color, emoji = ascii_map.get(genre.lower(), ("🎮 CLI Story Game 🎮", Fore.WHITE, "🎲"))
 
-    _____ _______ ____  _   _ ______ 
-   / ____|__   __/ __ \| \ | |  ____|
-  | (___    | | | |  | |  \| | |__   
-   \___ \   | | | |  | | . ` |  __|  
-   ____) |  | | | |__| | |\  | |____ 
-  |_____/   |_|  \____/|_| \_|______|
-""")
-    
-
-print(Fore.RED + Style.BRIGHT + r""" 
-    
- ___  __        __   ___  __               ___       ___     ___  __   __  
-|__  /  ` |__| /  \ |__  /__`    | |\ |     |  |__| |__     |__  /  \ / _` 
-|___ \__, |  | \__/ |___ .__/    | | \|     |  |  | |___    |    \__/ \__> 
-                                                                           
-""")
+    print()  # spacing
+    slow_print(color + Style.BRIGHT + banner)
+    print(color + Style.BRIGHT + f"            Genre: {genre.title()} {emoji}")
+    print()  # spacing
 
 def scene_break():
     print(Fore.WHITE + "\n" + "-" * 50 + "\n")
