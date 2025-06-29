@@ -1,0 +1,68 @@
+  title: "Echoes in the Fog"
+  scene_1:
+    text: >
+      A dense fog creeps across the city as your old radio crackles to life:
+      “Find the ledger... before midnight.”
+
+      You grab your coat and revolver, heart racing.
+    choices:
+      "1": "Head to the abandoned docks. -> scene_2a"
+      "2": "Call your informant for help. -> scene_2b"
+
+  scene_2a:
+    text: >
+      You reach the docks. Shadows slink between the crates. A flickering lamplight reveals a trapdoor.
+      The voice returns: “The name... speak it.”
+    choices:
+      "1": "Say the suspect's name. -> scene_3a"
+      "2": "Knock on the trapdoor three times. -> scene_3b"
+
+  scene_2b:
+    text: >
+      Your informant arrives in a trench coat, handing you a silver key.
+      “It’ll unlock the truth. But don’t trust the voice.”
+    choices:
+      "1": "Go to the docks with the key. -> scene_3c"
+      "2": "Ignore his warning and go alone. -> scene_3a"
+
+  scene_3a:
+    text: >
+      The trapdoor creaks open. Inside, the ledger glows faintly on a podium.
+      The voice whispers, “Burn it or read it?”
+    choices:
+      "1": "Burn it. -> scene_4b"
+      "2": "Read the contents. -> scene_4a"
+
+  scene_3b:
+    text: >
+      The door opens to reveal... nothing. Suddenly, gas fills the room. You collapse.
+    choices:
+      "1": "Hold your breath and crawl out. -> scene_4a"
+      "2": "Let go and fall into unconsciousness. -> scene_4c"
+
+  scene_3c:
+    text: >
+      The key unlocks a vault inside the docks. Inside: the ledger and a ticking clock.
+      A note reads: “Truth or silence?”
+    choices:
+      "1": "Take the ledger and expose everything. -> scene_4a"
+      "2": "Leave it behind and destroy the vault. -> scene_4b"
+
+  scene_4a:
+    text: >
+      You publish the ledger. Corruption is revealed. The city erupts in protest. You vanish.
+
+      Ending: "You uncovered the truth but became a ghost."
+
+  scene_4b:
+    text: >
+      You burned the ledger. Silence preserved peace, but guilt lingers in your soul.
+
+      Ending: "The truth died with the flame."
+
+  scene_4c:
+    text: >
+      You awaken in a cell, unsure how you got there. Across from you: the voice, now a man.
+      “Let’s try this again...”
+
+      Ending: "The mystery resets with you."

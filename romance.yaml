@@ -1,0 +1,66 @@
+title: "Hearts Ablaze"
+  scene_1:
+    text: >
+      A letter slips beneath your door: “Meet me at our place. The Ember Moon rises tonight.”
+
+      You feel your heartbeat quicken.
+    choices:
+      "1": "Go to the rooftop cafe. -> scene_2a"
+      "2": "Call your best friend for advice. -> scene_2b"
+
+  scene_2a:
+    text: >
+      You arrive. The city lights glow below. A figure stands waiting, holding a rose.
+      “Say the word...” they whisper.
+    choices:
+      "1": "Say "forever". -> scene_3a"
+      "2": "Say nothing. Just hold their hand. -> scene_3b"
+
+  scene_2b:
+    text: >
+      Your best friend urges caution but hands you a locket.
+      “If it glows... it’s real love.”
+    choices:
+      "1": "Go to the rooftop with the locket. -> scene_3c"
+      "2": "Leave the locket behind and go alone. -> scene_3a"
+
+  scene_3a:
+    text: >
+      The word hangs in the air. They smile, eyes gleaming.
+      “Then let us begin a new chapter.”
+    choices:
+      "1": "Kiss them under the ember moon. -> scene_4a"
+      "2": "Step back and ask for time. -> scene_4b"
+
+  scene_3b:
+    text: >
+      They squeeze your hand. Music plays faintly. Time stops.
+    choices:
+      "1": "Dance with them. -> scene_4a"
+      "2": "Pull away, unsure. -> scene_4c"
+
+  scene_3c:
+    text: >
+      The locket glows brightly. They see it and laugh joyfully.
+      “Then it’s meant to be.”
+    choices:
+      "1": "Begin your new life together. -> scene_4a"
+      "2": "Say goodbye one last time. -> scene_4b"
+
+  scene_4a:
+    text: >
+      You fall into each other’s arms. The ember moon watches.
+
+      Ending: "Love bloomed like fire."
+
+  scene_4b:
+    text: >
+      You walk away, locket in hand. It dims. But your heart is lighter.
+
+      Ending: "Love wasn't lost, just postponed."
+
+  scene_4c:
+    text: >
+      You disappear into the night. They wait, each moonrise, hoping.
+
+      Ending: "Some romances live in memory."

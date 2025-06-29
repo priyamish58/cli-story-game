@@ -1,0 +1,74 @@
+scene_1:
+  text: >
+    The full moon hovers over the spires of Aetheris as you awaken to a whisper in your mind:
+    “Come to the vault... the Ember Stone awaits.”
+    The voice is hauntingly familiar.
+
+    You quietly rise from your bed and grab your spell pouch.
+  choices:
+    "1": "Follow the voice to the vault. -> scene_2a"
+    "2": "Wake your mentor before doing anything. -> scene_2b"
+
+scene_2a:
+  text: >
+    You slip past the guards and descend the spiral stairwell leading to the forbidden vault.
+    A glowing sigil pulses on the sealed door—responding to your presence.
+    The voice returns: “Say the name...”
+  choices:
+    "1": "Speak your true name aloud. -> scene_3a"
+    "2": "Stay silent and touch the sigil instead. -> scene_3b"
+
+scene_2b:
+  text: >
+    You gently shake your mentor awake. She looks alarmed but listens.
+    “The Ember Stone?” she whispers. “You mustn’t go alone. But if you must go... take this rune.”
+
+    She hands you a glowing rune and warns, “Choose wisely. The stone tests the soul.”
+  choices:
+    "1": "Go to the vault with the rune. -> scene_3c"
+    "2": "Ignore the warning and go alone anyway. -> scene_3a"
+
+scene_3a:
+  text: >
+    The vault opens, revealing a hovering ember-red crystal. As you approach, shadows twist around you.
+    The voice asks, “Will you wield its power or seal it forever?”
+  choices:
+    "1": "Touch the stone and accept its power. -> scene_4a"
+    "2": "Seal it using a binding spell. -> scene_4b"
+
+scene_3b:
+  text: >
+    The sigil burns your palm, rejecting your silence. A trap is triggered—
+    vines of shadow wrap around your legs. You scream as you're pulled into darkness.
+  choices:
+    "1": "Cast a flame spell to burn the vines. -> scene_4a"
+    "2": "Surrender and see where it takes you. -> scene_4c"
+
+scene_3c:
+  text: >
+    The rune glows as you near the Ember Stone. It pulses once—then stills.
+    The voice says, “Two paths: Keeper or Conduit. Choose.”
+  choices:
+    "1": "Become the Keeper—hide the stone away forever. -> scene_4b"
+    "2": "Become the Conduit—let its magic flow through you. -> scene_4a"
+
+scene_4a:
+  text: >
+    Power surges through your veins. The Ember Stone fuses with your heart.
+    You are now the Conduit of Flame. Magic returns to the world, but so does its hunger.
+
+    Ending: "You saved the stone—but at what cost?"
+
+scene_4b:
+  text: >
+    You bind the stone with ancient magic, sealing it in ice and silence.
+    The voice vanishes. Peace returns to Aetheris, but your name fades with time.
+
+    Ending: "You chose sacrifice over glory."
+
+scene_4c:
+  text: >
+    The shadows take you to a hidden realm between worlds.
+    There, a hooded figure awaits. “Another chosen one... Let’s begin again.”
+
+    Ending: "You vanished from your world, but entered a greater story."

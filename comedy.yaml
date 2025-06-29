@@ -1,0 +1,67 @@
+title: "Toast of Destiny"
+  scene_1:
+    text: >
+      Your toaster just launched flaming bread across the room. The toast reads: “Seek the Ember Jam.”
+
+      Your cat looks suspicious.
+    choices:
+      "1": "Follow the toast trail. -> scene_2a"
+      "2": "Interrogate the cat. -> scene_2b"
+
+  scene_2a:
+    text: >
+      Toast crumbs lead to a secret fridge in your basement. A glowing jam jar hums with power.
+      A muffled voice: “Say the jelly code...”
+    choices:
+      "1": "Say "Strawberry Supreme". -> scene_3a"
+      "2": "Boop the jar with a spoon. -> scene_3b"
+
+  scene_2b:
+    text: >
+      Your cat gives you side-eye and hisses. Then it opens its mouth and speaks:
+      “Take this butter knife. You’ll need it.”
+    choices:
+      "1": "Grab the knife and go to the fridge. -> scene_3c"
+      "2": "Refuse to believe and eat cereal. -> scene_3a"
+
+  scene_3a:
+    text: >
+      The jam glows. Your face glows. You feel... toaster-like.
+      The voice says, “Spread the destiny or seal it away.”
+    choices:
+      "1": "Spread jam on the ancient crumpet. -> scene_4a"
+      "2": "Seal it in Tupperware. -> scene_4b"
+
+  scene_3b:
+    text: >
+      Spoon explodes into glitter. Jam jumps into your hair.
+      You black out from laughter.
+    choices:
+      "1": "Roll with it. -> scene_4a"
+      "2": "Surrender to toast fate. -> scene_4c"
+
+  scene_3c:
+    text: >
+      Butter knife cuts open a secret door. The jam is actually a portal.
+      Your cat nods. “You know what to do.”
+    choices:
+      "1": "Dive into the jam. -> scene_4a"
+      "2": "Lick it first. -> scene_4b"
+
+  scene_4a:
+    text: >
+      You become the Jam Wielder. Breakfasts shall never be boring again.
+
+      Ending: "You buttered your way into legend."
+
+  scene_4b:
+    text: >
+      You seal the jam. World saved. You still smell like toast.
+
+      Ending: "A delicious destiny denied."
+
+  scene_4c:
+    text: >
+      You float in a jam dimension. Pop music plays. It’s kinda awesome.
+
+      Ending: "Toasty. Forever."
